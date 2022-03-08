@@ -1,0 +1,86 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingTop: 40,
+    },
+    welcomeText: {
+      alignSelf: 'center',
+      fontSize: 40,
+      fontFamily: 'NSLight',
+      marginTop: 10,
+      color: '#26619c',
+    },
+    switchTabsView: {
+      display: 'flex',
+      flexDirection: 'row',
+      paddingHorizontal: 20,
+      marginTop: 20,
+    },
+    switchText: {
+      padding: 2,
+      fontSize: 20,
+      color: '#74b3ce',
+      fontFamily: 'NSExtraBold',
+    },
+    inputView: {
+      height: 40,
+      borderBottomWidth: 1,
+      borderBottomColor: '#fff',
+      marginTop: 10,
+      marginHorizontal: 20,
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    input: {
+      flex: 1,
+      height: 40,
+      fontSize: 16,
+      fontFamily: 'NSLight',
+      paddingHorizontal: 4,
+      color: '#fff',
+    },
+    button: {
+      marginHorizontal: 20,
+      backgroundColor: '#fafafa',
+      marginTop: 12,
+      paddingVertical: 10,
+      alignItems: 'center',
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      elevation: 5,
+    },
+    buttonText: { fontFamily: 'NSRegular', fontSize: 16, color: '#26619c' },
+    forgotPasswordText: {
+      marginHorizontal: 0,
+      marginTop: 20,
+      alignSelf: 'flex-end',
+      color: '#26619c',
+      fontSize: 18,
+      fontFamily: 'NSBold',
+    },
+    socialLoginView: {
+      marginTop: 40,
+      marginHorizontal: 20,
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center',
+    },
+    socialLoginTouchable: {
+      backgroundColor: '#fff',
+      width: 40,
+      height: 40,
+      borderRadius: 100,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginHorizontal: 8,
+    },
+  });
+  export default styles;
